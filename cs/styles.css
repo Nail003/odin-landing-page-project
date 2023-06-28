@@ -81,3 +81,33 @@ nav ul a {
     justify-content: center;
     align-items: center;
 }
+
+section.info {
+    padding: 6vh 18vw;
+}
+
+section.info h1 {
+    font-size: 36px;
+    color: #1f2937;
+    text-align: center;
+    font-weight: 900;
+}
+
+section.info .cards {
+    display: flex;
+    gap: 64px;
+    padding: 6vh 0 12vh 0;
+}
+
+section.info .img-container {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    height: 30vh;
+}
+
+section.info p {
+    text-align: center;
+    margin-top: 8px;
+    color: darkslategray;
+    font-size: 18px;
+}
