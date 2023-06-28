@@ -4,3 +4,80 @@
     padding: 0;
     font-family: Roboto;
 }
+
+header {
+    background-color: #1f2937;
+    padding: 3vh 15vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex: none;
+}
+
+nav .logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+nav ul a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    margin: auto 0;
+    gap: 64px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.hero-left p {
+    margin: 8px 0 16px 0;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    background-color: #6e727a;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
