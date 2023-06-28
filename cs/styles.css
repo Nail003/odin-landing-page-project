@@ -13,7 +13,7 @@ header {
     flex-direction: column;
 }
 
-header p {
+header p, section.call-to-action p {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -131,4 +131,31 @@ section.quote h3 {
     text-align: right;
     font-size: 24px;
     color: #1f2937;
+}
+
+section.call-to-action {
+    padding: 20vh 15vw;
+}
+
+section.call-to-action .card {
+    background-color: #3882f6;
+    padding: 48px 96px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.call-to-action h3 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+section.call-to-action button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
 }
