@@ -102,7 +102,7 @@ section.info .cards {
 section.info .img-container {
     border: 4px solid #3882f6;
     border-radius: 16px;
-    height: 30vh;
+    height: 25vh;
 }
 
 section.info p {
@@ -158,4 +158,11 @@ section.call-to-action button {
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
+}
+
+footer {
+    background-color: #1f2937;
+    padding: 5vh 0;
+    text-align: center;
+    color: #e5e7eb;
 }
